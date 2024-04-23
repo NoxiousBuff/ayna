@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "853981284138",
+    "project_id": "ayna-a6f60",
+    "storage_bucket": "ayna-a6f60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853981284138:android:99427ce2cddc90c4ef4053",
+        "android_client_info": {
+          "package_name": "com.example.ayna"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfsb_vfHPdeGFB4dqfjd27FO3GqdQ8pQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
