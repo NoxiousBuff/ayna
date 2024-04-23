@@ -15,28 +15,28 @@ class AuthView extends StatelessWidget {
             builder: (context, constraints) => Row(
               children: [
                 if (constraints.maxWidth > 1000)
-                  Expanded(
+                  Flexible(
                     flex: 6,
                     child: Container(
                       padding: const EdgeInsets.symmetric(
                           vertical: 20, horizontal: 20),
                       height: double.maxFinite,
+                      width: double.maxFinite,
                       decoration: const BoxDecoration(
                           image: DecorationImage(
                               fit: BoxFit.cover,
                               image: AssetImage(
                                   'assets/images/auth_background.jpg'))),
-                      child: const Expanded(
-                          child: Text(
-                        'Anya Web Chat',
-                        style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 36,
-                            fontWeight: FontWeight.w600),
-                      )),
+                      child: const Text(
+                                              'Anya Web Chat',
+                                              style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 36,
+                        fontWeight: FontWeight.w600),
+                                            ),
                     ),
                   ),
-                Expanded(
+                Flexible(
                   flex: 4,
                   child: Container(
                     padding: const EdgeInsets.symmetric(horizontal: 50),
